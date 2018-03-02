@@ -1,0 +1,6 @@
+﻿@using WebApplication.Models
+ @foreach (Product c in ViewBag.Store.Products)
+ {
+     <li>@c.Name - @c.Description</li>
+ }
+
